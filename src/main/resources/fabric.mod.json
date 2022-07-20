@@ -3,27 +3,27 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Tatarabe",
+  "description": "Mincraft Tatarabenization",
   "authors": [
-    "Me!"
+    "suquiya"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://donsyoku.com/",
+    "sources": "https://github.com/suquiya/tatarabe"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/tatarabe/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.donsyoku.tatarabe.Tatarabe"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "tatarabe.mixins.json"
   ],
 
   "depends": {
